@@ -1,13 +1,5 @@
 # Coffee Shop API (NestJS + Prisma + Neon)
 
-```bash
-cp .env.example .env     # fill in values
-npm install
-npx prisma migrate dev --name init
-npx prisma db seed
-npm run start:dev
-```
-
 Demo accounts:
 - admin@coffee.com / Admin@123
 - manager@coffee.com / Manager@123
